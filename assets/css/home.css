@@ -74,12 +74,12 @@ h1{
 
 h2{
     font-size: 25px;
-    font-weight: 700;
+    font-weight: medium;
 }
 
 h3{
     font-size:35px;
-    font-weight: 700;
+    font-weight: medium;
 }
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
@@ -91,11 +91,13 @@ h3{
 #getintouch{
     border-color:#F47522 !important;
     border-radius: 20px !important;
+    font-family: "Roboto"
 }
 
 a:hover{
     color:#F47522;
     text-decoration: none;
+    font-weight:bold;
 }
 
 a {
@@ -104,4 +106,12 @@ a {
 
 #home-option{
     color:#F47522;
+    font-weight:bold;
+}
+
+@media(max-width:993px){
+    .logo{text-align    : center;}
+    #profile-pic{width:250px;}
+    .profile-pic, .bio{text-align: center;padding-left:0;}
+    .content{margin-top:50px;}
 }
