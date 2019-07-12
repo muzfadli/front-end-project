@@ -152,6 +152,13 @@ a{
     margin-top: 30px;
 }
 
+@media(max-width:1200px){
+    .fotobwhorang {
+        position: absolute;
+        top: 185px;
+        right: 250px;}
+}
+
 @media(max-width:993px){
     body {width: 100%}
     /* .fotoorang {width: 100%} */
@@ -162,20 +169,11 @@ a{
     /* .fotoorang{text-align: center;} */
     .tabel{text-align: center; margin-bottom: 25px;}
     .foto2{text-align: center;}
-    }
-
-@media(max-width:1200px){
-    .fotobwhorang {
-        position: absolute;
-        top: 185px;
-        right: 250px;}
-}
-
-@media(max-width:993px){
     .fotobwhorang {
         position: absolute;
         top: 185px;
         right: 150px;}
+    .menu-option li{margin: auto -5px;}
 }
 
 @media(max-width:767px){
@@ -188,5 +186,15 @@ a{
     .social {
         text-align: center;
         border-right: none;
+    }
+    .menu-option li{margin: auto +5px;}
+    .profil{padding: 0 20px;}
+    .aboutme{padding-left: 25px;}
+
+}
+
+@media(max-width:520px){
+    .fotobwhorang{
+        opacity: 0;
     }
 }

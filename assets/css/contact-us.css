@@ -79,9 +79,8 @@ section {
     color: red;
 }
 
-@media(max-width:767px){
-    .box-n{height: 300px; min-height: 300px; background-size: none}
-    .boxed{height: 300px;}
+@media(max-width:1120px){
+    section {width: 100%}
 }
 
 @media(max-width:991px){
@@ -98,7 +97,7 @@ section {
     body {width: 100%}
 }
 
-
-@media(max-width:1120px){
-    section {width: 100%}
+@media(max-width:767px){
+    .box-n{height: 300px; min-height: 300px; background-size: none}
+    .boxed{height: 300px;}
 }

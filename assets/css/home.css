@@ -114,4 +114,10 @@ a {
     #profile-pic{width:250px;}
     .profile-pic, .bio{text-align: center;padding-left:0;}
     .content{margin-top:50px;}
+    .menu-option li{margin: auto -5px;}
+}
+
+
+@media(max-width:767px){
+    .menu-option li{margin: auto +5px;}
 }
