@@ -13,6 +13,11 @@ header{
     /* z-index: 2; */
 }
 
+.foto {background-image: url(../img/matthew-hamilton-tNCH0sKSZbA-unsplash.jpg);
+    height: 249px;
+    weight: 249px;
+}
+
 .logo{
     vertical-align: middle;
     /* padding-left: 125px; */
@@ -38,6 +43,7 @@ header{
 
 
 body{
+    color: #19345E;
     margin:0;
     /* height:100%; */  
 }
@@ -48,32 +54,134 @@ section{
 }
 
 .aboutme{
-    background-color: #F4F7FC;
+    color: #19345E;
     width:100%;
-    margin:0;
+    margin-top:35px;
+    vertical-align: middle;
+}
+.banner_aboutme{
+    background-color: #F4F7FC;
+    width: 100%;
+    height:132px;
+}
+
+.profil {
+    margin-left: 20px;
+}
+
+table {
+    width: 75%;
+}
+
+td {
+    border: 1px solid grey;
+    padding: 5px;
 
 }
 
-.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color:#F47522 !important;
-    border:none;
 
+.fotoorang {  
+    
+    margin-top: 5px;
+    margin-left: 80px;
+    border: 1px black transparent;
+    border-radius: 10px;
+}
+.fotobwhorang {
+    position: absolute;
+    top: 185px;
+    right: 330px;
+}
+
+h5 {
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: bottom;
+    background-color: #19345E;
+    padding: 25px;
+    margin-top: 70px;
+}
+
+.footcp {
+    text-align: right;
+    height: 100%;
+}
+
+.social {
+    text-align: left;
+    border-right: 1px solid grey;
+    height: 100%;
+}
+
+.biodata{
+    margin-top:50px;
 }
 
 #getintouch{
     border-color:#F47522 !important;
     border-radius: 20px !important;
+    font-family: "Roboto"
 }
 
 a:hover{
     color:#F47522;
     text-decoration: none;
+    font-weight:bold;
 }
 
-a {
+a{
     color:#19345E;
 }
 
 #about-me{
     color:#F47522;
+    font-weight:bold;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color:#F47522 !important;
+    border:none;}
+
+.footh {
+    height: 70%;
+    margin: 0;
+    margin-top: 30px;
+}
+
+@media(max-width:993px){
+    body {width: 100%}
+    /* .fotoorang {width: 100%} */
+    /* .fotobwhorang {width: 100%} */
+    .logo{text-align: center}
+    footer {padding: 0}
+    .footcp {width: 100%}
+    /* .fotoorang{text-align: center;} */
+    .tabel{text-align: center; margin-bottom: 25px;}
+    .foto2{text-align: center;}
+    }
+
+@media(max-width:1200px){
+    .fotobwhorang {
+        position: absolute;
+        top: 185px;
+        right: 250px;}
+}
+
+@media(max-width:993px){
+    .fotobwhorang {
+        position: absolute;
+        top: 185px;
+        right: 150px;}
+}
+
+@media(max-width:768px){
+    .fotobwhorang {
+        position: absolute;
+        top: 185px;
+        right: 335px;}
+    .fotoorang{margin:0;}
 }
