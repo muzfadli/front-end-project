@@ -178,10 +178,15 @@ a{
         right: 150px;}
 }
 
-@media(max-width:768px){
+@media(max-width:767px){
     .fotobwhorang {
         position: absolute;
         top: 185px;
         right: 335px;}
     .fotoorang{margin:0;}
+    .footcp {text-align: center}
+    .social {
+        text-align: center;
+        border-right: none;
+    }
 }
